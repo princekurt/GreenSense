@@ -1,87 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Unique Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenSense</title>
+    <link rel="stylesheet" href="cssStyle/style.css">
 </head>
-
 <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-logo">GreenSense</div>
+        <ul class="nav-links">
+            <li id="feature"><a href="#features">Features</a></li>
+            <li id="dashboard"><a href="#dashboard">Dashboard</a></li>
+            <li id="about"><a href="#info">About</a></li>
+            <li id="signUp"><a href="#cta" class="nav-btn">Sign Up</a></li>
+        </ul>
+    </nav>
 
-  <!--NAVBAR -->
-  <nav class="navbar">
-    <div class="logo">PK<span>.</span></div>
+    <!-- HERO -->
+    <header class="hero">
+        <img src="farm_picSample.jpg" alt="CoverPhoto" id="coverPhoto">
+        <h1>Smart Insights for Small Greenhouse Farmers</h1>
+        <p>Make smarter decisions, reduce waste, and increase profits—without complicated spreadsheets.</p>
+        <a href="#cta" class="btn">Start Free Trial</a>
+    </header>
 
-    <!-- Navigation Menu -->
-    <ul class="nav-links">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#works">Works</a></li> 
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#about">About</a></li>
-    </ul>
-  </nav>
-  <img src="profile_pic.jpg" alt="Profile Picture" class="profile-floating">
+    <!-- FEATURES -->
+    <section id="features" class="features">
+        <h2>Key Features</h2>
+        <div class="feature-grid">
+            <div class="feature">
+                <h3>Transaction Tracking</h3>
+                <p>Log purchases and sales easily from your phone or computer.</p>
+            </div>
+            <div class="feature">
+                <h3>AI Insights</h3>
+                <p>Analyze crop performance, profit per plant, and seasonal trends.</p>
+            </div>
+            <div class="feature">
+                <h3>Alerts & Suggestions</h3>
+                <p>Receive notifications for underperforming or highly profitable crops.</p>
+            </div>
+        </div>
+    </section>
 
-  <!--HERO -->
-  <header id="home" class="hero">
-    <div class="hero-content">
-      <h1 class="fade-in">Hello, I'm <span>Prince Kurt</span></h1>
-      <p class="slide-up">Aspiring Developer</p>
-      <a href="#projects" class="btn pulse">See My Work</a>
+    <!-- DASHBOARD -->
+<section id="dashboard" class="dashboard">
+    <h2>See Your Farm Insights at a Glance</h2>
+    <div class="dashboard-cards">
+        <div class="card">
+            <h3>Profit by Crop</h3>
+            <p>₱5,250</p>
+        </div>
+        <div class="card">
+            <h3>Expenses This Month</h3>
+            <p>₱10,530</p>
+        </div>
+        <div class="card">
+            <h3>Top Selling Crop</h3>
+            <p>Coconut</p>
+        </div>
     </div>
-  </header>
-
-<!-- FORMATIVE  -->
-<section id="works" class="works-section">
-  <h2>IT103 Formative</h2>
-  <div class="work-grid">
-    <a href="#" target="_blank" class="work-card">Activity 1 – Basic HTML Page</a>
-    <a href="#" target="_blank" class="work-card">Work-In-Progress</a>
-    <a href="#" target="_blank" class="work-card">Work-In-Progress</a>
-    <a href="#" target="_blank" class="work-card">Work-In-Progress</a>
-  </div>
+    <img src="charts_sample.webp" alt="Sample Charts">
 </section>
 
-  <!-- PROJECTS SECTION -->
-  <section id="projects" class="projects-section">
-    <h2>Featured Projects</h2>
+    <!-- INFORMATION -->
+    <section id="info" class="info">
+        <h2>Benefits for Farmers</h2>
+        <ul>
+            <li>Save Money by knowing which crops are profitable</li>
+            <li>Reduce Waste by avoiding overplanting</li>
+            <li>Increase Profits with data-driven decisions</li>
+            <li>Plan Better using historical data</li>
+            <li>Peace of Mind while GreenSense monitors your farm</li>
+        </ul>
+    </section>
 
-    <!-- Project Cards Grid -->
-    <div class="project-grid">
+    <!-- CTA -->
+    <section id="cta" class="cta">
+        <h2>Get Started Today</h2>
+        <a href="#" class="btn">Create Free Account</a>
+    </section>
 
-      <div class="project-card pop">
-        <h3>Inventory & Sales System</h3>
-        <p>A full system that manages items, sales tracking, and reporting.</p>
-      </div>
-
-      <div class="project-card pop">
-        <h3>RideSharing Application</h3>
-        <p>A mobile app for matching drivers and hitchers using live location.</p>
-      </div>
-
-      <div class="project-card pop">
-        <h3>Java IT Specialist Exam</h3>
-        <p>Passed certification demonstrating strong Java fundamentals.</p>
-      </div>
-
-    </div>
-  </section>
-
-  <!--  ABOUT SECTION  -->
-  <section id="about" class="about-section">
-    <h2>About Me</h2>
-    <p>I'm an CS student passionate about coding, UI/UX, and building real-world apps. 
-       Currently learning and improving my HTML, CSS, and JS skills.</p>
-  </section>
-
-  <!-- FOOTER  -->
-  <footer id="contact" class="footer">
-    <p>© 2025 Prince Kurt • All Rights Reserved</p>
-  </footer>
-
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 GreenSense | Smart Farming </p>
+    </footer>
 </body>
 </html>
