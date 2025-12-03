@@ -163,7 +163,7 @@ body {
 }
 
 .feature {
-    background: var(--green);
+    background: var(--light-green);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -196,7 +196,7 @@ body {
 }
 
 .card {
-    background: var(--green);
+    background: var(--light-green);
     padding: 40px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
