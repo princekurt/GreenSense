@@ -3,81 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GreenSense</title>
+    <title>GreenSense | Smart Farming</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.jpeg" type="image/jpeg">
 </head>
 <body>
     <!-- NAVBAR -->
     <nav class="navbar">
         <div class="nav-logo">GreenSense</div>
         <ul class="nav-links">
-            <li id="feature"><a href="#features">Features</a></li>
-            <li id="dashboard"><a href="#dashboard">Dashboard</a></li>
-            <li id="about"><a href="#info">About</a></li>
-            <li id="signUp"><a href="#cta" class="nav-btn">Sign Up</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#dashboard">Dashboard</a></li>
+            <li><a href="#info">Benefits</a></li>
+            <li><a href="#cta" class="nav-btn">Sign Up</a></li>
         </ul>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </nav>
 
-    <!-- HERO -->
+    <!-- HERO SECTION -->
     <header class="hero">
-        <img src="farm_picSample.jpg" alt="CoverPhoto" id="coverPhoto">
-        <h1>Smart Insights for Small Greenhouse Farmers</h1>
-        <p>Make smarter decisions, reduce waste, and increase profits—without complicated spreadsheets.</p>
-        <a href="#cta" class="btn">Start Free Trial</a>
+        <img src="farm_picSample.jpg" alt="Greenhouse Farm" class="cover-photo">
+        <div class="hero-content">
+            <h1>Smart Insights for Small Greenhouse Farmers</h1>
+            <p>Make smarter decisions, reduce waste, and increase profits—without complicated spreadsheets.</p>
+            <a href="#cta" class="btn hero-btn">Start Free Trial</a>
+        </div>
     </header>
 
-    <!-- FEATURES -->
+    <!-- FEATURES SECTION -->
     <section id="features" class="features">
         <h2>Key Features</h2>
         <div class="feature-grid">
             <div class="feature">
+                <div class="feature-icon">💰</div>
                 <h3>Transaction Tracking</h3>
                 <p>Log purchases and sales easily from your phone or computer.</p>
             </div>
             <div class="feature">
+                <div class="feature-icon">🤖</div>
                 <h3>AI Insights</h3>
                 <p>Analyze crop performance, profit per plant, and seasonal trends.</p>
             </div>
             <div class="feature">
+                <div class="feature-icon">⚡</div>
                 <h3>Alerts & Suggestions</h3>
                 <p>Receive notifications for underperforming or highly profitable crops.</p>
             </div>
         </div>
     </section>
 
-    <!-- DASHBOARD -->
-<section id="dashboard" class="dashboard">
-    <h2>See Your Farm Insights at a Glance</h2>
-    <div class="dashboard-cards">
-        <div class="card">
-            <h3>Profit by Crop</h3>
-            <p>₱5,250</p>
+    <!-- DASHBOARD SECTION -->
+    <section id="dashboard" class="dashboard">
+        <h2>See Your Farm Insights at a Glance</h2>
+        <div class="dashboard-cards">
+            <div class="card">
+                <h3>Profit by Crop</h3>
+                <p>₱5,250</p>
+            </div>
+            <div class="card">
+                <h3>Expenses This Month</h3>
+                <p>₱10,530</p>
+            </div>
+            <div class="card">
+                <h3>Top Selling Crop</h3>
+                <p>Coconut</p>
+            </div>
         </div>
-        <div class="card">
-            <h3>Expenses This Month</h3>
-            <p>₱10,530</p>
+        <div class="dashboard-image-wrapper">
+            <img src="charts_sample.webp" alt="Farm Insights Charts" class="dashboard-image">
         </div>
-        <div class="card">
-            <h3>Top Selling Crop</h3>
-            <p>Coconut</p>
-        </div>
-    </div>
-    <img src="charts_sample.webp" alt="Sample Charts">
-</section>
-
-    <!-- INFORMATION -->
-    <section id="info" class="info">
-        <h2>Benefits for Farmers</h2>
-        <ul>
-            <li>Save Money by knowing which crops are profitable</li>
-            <li>Reduce Waste by avoiding overplanting</li>
-            <li>Increase Profits with data-driven decisions</li>
-            <li>Plan Better using historical data</li>
-            <li>Peace of Mind while GreenSense monitors your farm</li>
-        </ul>
     </section>
 
-    <!-- CTA -->
+    <!-- BENEFITS SECTION -->
+    <section id="info" class="info">
+        <h2>Benefits for Farmers</h2>
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <h3>💰 Save Money</h3>
+                <p>Know which crops are profitable and reduce unnecessary expenses.</p>
+            </div>
+            <div class="benefit-card">
+                <h3>🌱 Reduce Waste</h3>
+                <p>Avoid overplanting by analyzing trends and farm data effectively.</p>
+            </div>
+            <div class="benefit-card">
+                <h3>📈 Increase Profits</h3>
+                <p>Make data-driven decisions to grow your income efficiently.</p>
+            </div>
+            <div class="benefit-card">
+                <h3>🗓 Plan Better</h3>
+                <p>Use historical insights to plan crops and seasons strategically.</p>
+            </div>
+            <div class="benefit-card">
+                <h3>😌 Peace of Mind</h3>
+                <p>GreenSense monitors your farm, so you can focus on growth.</p>
+            </div>
+            <div class="benefit-card">
+                <h3>🌾 Optimize Resources</h3>
+                <p>Use water, fertilizers, and labor efficiently to save time and cost.</p>
+            </div>
+            <div class="benefit-card">
+                <h3>📊 Track Growth</h3>
+                <p>Monitor crop growth and yield trends for better decision-making.</p>
+            </div>
+            <div class="benefit-card">
+                <h3>⚡ Quick Insights</h3>
+                <p>Receive instant insights on your farm performance in real-time.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
     <section id="cta" class="cta">
         <h2>Get Started Today</h2>
         <a href="#" class="btn">Create Free Account</a>
@@ -85,7 +127,16 @@
 
     <!-- FOOTER -->
     <footer>
-        <p>© 2025 GreenSense | Smart Farming </p>
+        <p>© 2025 GreenSense | Smart Farming</p>
     </footer>
+
+    <!-- MOBILE  -->
+    <script>
+        const toggle = document.querySelector('.mobile-menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        toggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
